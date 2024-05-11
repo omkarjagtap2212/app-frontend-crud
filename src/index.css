@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+div {
+    text-align: center;
+    list-style: none;
+    position: static;
+
+
+
+
+}
+a{
+    margin: 5px;
+}
+/* 
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 600px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.box h1 {
+    margin: 5px 0;
+} */
+
+.mybody{
+    padding: 10px;
+    margin: 15px;
+
+}
+
+.mybtn{
+    background-color: #ff0606ae;
+    color: rgba(5, 5, 5, 0.882);
+    border-radius: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+/* CSS */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Change to your desired background color */
+    padding: 10px 0; /* Adjust padding as needed */
+    z-index: 1000; /* Ensure navbar is above other content */
+  }
+  
+  /* Adjust body padding to prevent content from being hidden behind the navbar */
+  body {
+    margin-top: 50px;
+    padding-top: 50px; /* Adjust to match the height of your navbar */
+  }
+  
+
+body,html{
+    background-color: rgba(0, 0, 0, 0.097);
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+
+    
+}
+
+.form input{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 6px;
+
+
+}
+
+
+.form button{
+    padding: 10px;
+    margin: 8px;
+    background-color: black;
+    color: bisque;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+
+.myerror{
+    color: red;
+    font-size: medium;
+    font-weight: 600;
+
+}
