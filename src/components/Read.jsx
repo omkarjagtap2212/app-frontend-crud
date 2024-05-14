@@ -8,7 +8,7 @@ const Read = () => {
   const [data, setdata] = useState([]);
 
   const fetchData = async () => {
-    const response = await axios.get("http://localhost:8000")
+    const response = await axios.get("https://technotes-api.onrender.com")
     const result = response.data
     setdata(result)
     console.log(data)
@@ -27,7 +27,7 @@ const Read = () => {
 
 
   const handleDelete = async (id) => {
-    const response = await fetch(`http://localhost:8000/${id}`, {
+    const response = await fetch(`https://technotes-api.onrender.com/${id}`, {
       method: "DELETE"
     })
 
