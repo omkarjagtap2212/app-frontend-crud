@@ -36,7 +36,7 @@ const Update = () => {
 
 
     try {
-      const response = await axios.patch(`https://technotes-api.onrender.com/${id}`, {
+      const response = await axios.patch(`https://technotes-api-c3yr.onrender.com/${id}`, {
         name: Name,
         email: email,
         age: Age
@@ -69,7 +69,7 @@ const Update = () => {
   const getsingleUser = async () => {
 
 
-    const response = await fetch(`https://technotes-api.onrender.com/${id}`)
+    const response = await fetch(`https://technotes-api-c3yr.onrender.com/${id}`)
 
     const results = await response.json()
 

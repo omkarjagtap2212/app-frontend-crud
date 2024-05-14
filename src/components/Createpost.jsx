@@ -36,7 +36,7 @@ const Createpost = () => {
 
 
     try {
-      const response = await axios.post("https://technotes-api.onrender.com", {
+      const response = await axios.post("https://technotes-api-c3yr.onrender.com", {
         name: Name,
         email: email,
         age: Age
